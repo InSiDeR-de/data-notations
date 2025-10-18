@@ -1,0 +1,44 @@
+{
+    "ticketId": "IC-3510-20250715-000123",
+    "passenger": {
+        "firstName": "Jan",
+        "lastName": "Kowalski",
+        "passengerId": null
+    },
+    "operator": "PKP Intercity",
+    "train": {
+        "number": 3510,
+        "type": "IC"
+    },
+    "origin": {
+        "station": "Kraków Główny",
+        "code": "KRK",
+        "platform": "1"
+    },
+    "destination": {
+        "station": "Warszawa Centralna",
+        "code": "WAW",
+        "platform": "4"
+    },
+    "departureTime": "2025-07-15T08:30:00+02:00",
+    "arrivalTime": "2025-07-15T10:12:00+02:00",
+    "seat": {
+        "carriage": 5,
+        "seatNumber": "12A",
+        "class": "2nd"
+    },
+    "price": 49.9,
+    "currency": "PLN",
+    "refundable": false,
+    "purchaseMethod": [
+        "mobile app",
+        "online"
+    ],
+    "qrCode": null,
+    "amenities": [
+        "Wi-Fi",
+        "power outlet",
+        "bicycle space"
+    ],
+    "isInternational": false
+}
