@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transports>
+    <transport id="t1" type="bicycle" owned="true">
+        <brand>Trek</brand>
+        <model>FX 3</model>
+        <year>2021</year>
+        <color>Matte Black</color>
+        <gearCount>18</gearCount>
+        <usage>daily commute</usage>
+    </transport>
+
+    <transport id="t2" type="car" owned="true" fuel="gasoline">
+        <brand>Toyota</brand>
+        <model>Corolla</model>
+        <year>2018</year>
+        <color>Silver</color>
+        <license>XYZ-1234</license>
+        <mileage unit="km">68000</mileage>
+        <usage>errands and weekend trips</usage>
+    </transport>
+
+    <transport id="t3" type="scooter" owned="false" fuel="electric">
+        <brand>Segway</brand>
+        <model>Ninebot ES2</model>
+        <year>2020</year>
+        <batteryCapacity unit="Wh">187</batteryCapacity>
+        <maxRange unit="km">25</maxRange>
+        <topSpeed unit="km/h">25</topSpeed>
+        <usage>short urban trips</usage>
+    </transport>
+</transports>

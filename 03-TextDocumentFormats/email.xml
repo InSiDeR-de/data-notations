@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<emails xmlns="urn:example:email">
+    <email id="1">
+        <from>
+            <name>Dawid Piechura</name>
+            <address>dawidpiechura@example.com</address>
+        </from>
+
+        <to>
+            <name>Stal J</name>
+            <address>stalj@example.com</address>
+        </to>
+
+        <subject>Subject</subject>
+
+        <body format="text">
+            Wiadomość email.
+        </body>
+
+        <date>2025-10-18T12:34:56Z</date>
+        <cc/>
+        <bcc/>
+    </email>
+</emails>

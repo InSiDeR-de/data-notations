@@ -23,4 +23,41 @@
             <perimeter>4 * side</perimeter>
         </formulas>
     </figure>
+    <figure>
+        <name>Triangle</name>
+        <type>2D</type>
+        <properties>
+            <property>Base</property>
+            <property>Height</property>
+            <property>Side Lengths</property>
+        </properties>
+        <formulas>
+            <area>0.5 * base * height</area>
+            <perimeter>side1 + side2 + side3</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Rectangle</name>
+        <type>2D</type>
+        <properties>
+            <property>Width</property>
+            <property>Height</property>
+        </properties>
+        <formulas>
+            <area>width * height</area>
+            <perimeter>2 * (width + height)</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Cylinder</name>
+        <type>3D</type>
+        <properties>
+            <property>Radius</property>
+            <property>Height</property>
+        </properties>
+        <formulas>
+            <surfaceArea>2 * π * radius * (radius + height)</surfaceArea>
+            <volume>π * radius^2 * height</volume>
+        </formulas>
+    </figure>
 </geometricFigures>
