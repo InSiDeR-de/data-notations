@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Data Form</title>
 </head>
+
 <body>
     <h1>Patient Data Form</h1>
     <form>
         <label for="fname">First Name:</label><br>
         <input type="text" id="fname" name="fname"><br><br>
-        
+
         <label for="lname">Last Name:</label><br>
         <input type="text" id="lname" name="lname"><br><br>
-        
+
+        <label for="place">Place of Birth:</label><br>
+        <input type="text" id="place" name="place"><br><br>
+
+        <label for="date">Birth Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
         <label for="age">Age:</label><br>
         <input type="number" id="age" name="age"><br><br>
-        
-        <label >Gender:</label><br>
+
+        <label>Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br><br>
 
+        <label>Ilnesses:</label><br>
+        <input type="checkbox" id="cukrzyca" name="cukrzyca" value="cukrzyca">
+        <label for="cukrzyca">cukrzyca</label><br>
+        <input type="checkbox" id="nadcisnienie" name="nadcisnienie" value="nadcisnienie">
+        <label for="nadcisnienie">nadciśnienie</label><br>
+        <input type="checkbox" id="astma" name="astma" value="astma">
+        <label for="astma">astma</label><br>
+        <input type="checkbox" id="alergia" name="alergia" value="alergia">
+        <label for="alergia">alergia</label><br><br>
+
         <label for="height">Height (cm):</label><br>
         <input type="number" id="height" name="height"><br><br>
-        
+
         <label for="weight">Weight (kg):</label><br>
         <input type="number" id="weight" name="weight"><br><br>
-        
+
+        <label for="notes">Notes:</label><br>
+        <input type="text" id="notes" name="notes"><br><br>
+
         <button type="button">Ok</button>
         <button type="button">Cancel</button>
     </form>
 </body>
+
 </html>
